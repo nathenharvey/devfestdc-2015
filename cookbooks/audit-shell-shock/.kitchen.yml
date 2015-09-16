@@ -12,6 +12,9 @@ platforms:
   # - name: ubuntu-14.04
   # - name: centos-7.1
   - name: centos-5
+    driver_config:
+      image: centos:5.11
+      platform: centos
 
 suites:
   - name: default
